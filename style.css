@@ -10,7 +10,6 @@
     width: 100%;
 }
 li.nav-item a {
-    font-family: 'Poppins';
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
@@ -32,4 +31,90 @@ li.nav-item a:hover {
     background:#e66bbb;
     color: #fff;
     transition: .4s;
+}
+/* --------------------------
+Banner Section style by Rubel Hossain
+------------------------ */
+.carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .7;
+    background: rgba(29, 29, 29, 0.7);
+}
+.carousel-caption {
+    bottom: 250px !important;
+}
+.carousel-caption h2 {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+.btn.btn-primary.slider-btn:hover {
+    background: #cf4ea2;
+    transition: .5s;
+}
+.btn.btn-primary.slider-btn {
+    background: #e66bbb;
+    border: none;
+    padding: 10px 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.carousel-caption p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+/* Popular Courses Style */
+.img-site img {
+    width: 100%;
+}
+.course-title h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+.course-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
+.single-popular-course {
+    display: flex;
+    align-items: center;
+}
+.course-details {
+    padding-left: 30px;
+}
+.single-popular-course {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+.course-details h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 21px;
+    color: #4A4A4A;
+    margin-top: 10px;
+}
+.course-btn {
+    justify-content: center;
+    display: flex;
+}
+.btn.btn-primary.course-btn {
+    background: #e66bbb;
+    border: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    text-transform: uppercase;
 }

@@ -1,0 +1,93 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    .carousel-caption {
+        bottom: 150px !important;
+    }
+    .btn.btn-primary.slider-btn {
+        padding: 10px 25px;
+    }
+    .carousel-caption p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .carousel-caption h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .carousel-caption {
+        bottom: 110px !important;
+    }
+    .btn.btn-primary.slider-btn {
+        padding: 3px 14px;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .carousel-caption h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    /* Populer Course Section */
+    .course-title h2 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .course-title p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+.carousel-caption {
+    bottom: 10px !important;
+}
+.btn.btn-primary.slider-btn {
+    padding: 3px 14px;
+}
+.carousel-caption p {
+    font-size: 12px;
+    line-height: 15px;
+}
+.carousel-caption h2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+/* Populer Course Section */
+.course-title h2 {
+    font-size: 22px;
+}
+.course-title p {
+    font-size: 12px;
+    line-height: 22px;
+}
+.single-popular-course {
+    display: block;
+}
+}
