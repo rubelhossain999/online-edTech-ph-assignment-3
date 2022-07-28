@@ -7,6 +7,11 @@
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    .l-middle-title{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    /* ============Defult CSS=============== */
 
     .carousel-caption {
         bottom: 150px !important;
@@ -22,6 +27,14 @@
         font-size: 40px;
         line-height: 40px;
     }
+        /* Elearning Institute */
+        .lear-right-side img {
+            margin-left: 0px;
+        }
+        .lear-left-side {
+            padding: 0;
+            margin-top: 20px;
+        }
 
 
 }
@@ -29,6 +42,11 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .l-middle-title{
+        font-weight: 600;
+        font-size: 25px;
+    }
+    /* ============Defult CSS=============== */
 
     .carousel-caption {
         bottom: 110px !important;
@@ -53,6 +71,14 @@
         font-size: 15px;
         line-height: 22px;
     }
+    /* Elearning Institute */
+    .lear-right-side img {
+        margin-left: 0px;
+    }
+    .lear-left-side {
+        padding: 0;
+        margin-top: 20px;
+    }
 
 }
 
@@ -65,6 +91,17 @@
  
 /* Large Mobile :480px. */
 @media only screen and (min-width: 375px) and (max-width: 767px) {
+.main-title{
+    font-size: 32px;
+    line-height: 39px;
+}
+.l-middle-title{
+    font-size: 25px;
+    line-height: 38px;
+}
+/* ============Defult CSS=============== */
+
+/* Banner Section */
 .carousel-caption {
     bottom: 10px !important;
 }
@@ -89,5 +126,18 @@
 }
 .single-popular-course {
     display: block;
+}
+/* Elearning Institute */
+.l-middle-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+}
+.lear-right-side img {
+    margin-left: 0px;
+}
+.lear-left-side {
+    padding: 0;
+    margin-top: 20px;
 }
 }

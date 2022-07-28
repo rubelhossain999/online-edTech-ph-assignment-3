@@ -5,10 +5,22 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-/* Header Style */
-.logo img {
+img{
     width: 100%;
 }
+.main-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+.l-middle-title{
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+/* Header Style */
 li.nav-item a {
     font-weight: 400;
     font-size: 18px;
@@ -49,12 +61,6 @@ Banner Section style by Rubel Hossain
 .carousel-caption {
     bottom: 250px !important;
 }
-.carousel-caption h2 {
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 85px;
-    color: #FFFFFF;
-}
 .btn.btn-primary.slider-btn:hover {
     background: #cf4ea2;
     transition: .5s;
@@ -73,9 +79,6 @@ Banner Section style by Rubel Hossain
     color: #F4F4F4;
 }
 /* Popular Courses Style */
-.img-site img {
-    width: 100%;
-}
 .course-title h2 {
     font-weight: 600;
     font-size: 45px;
@@ -117,4 +120,26 @@ Banner Section style by Rubel Hossain
     padding: 10px 35px;
     font-size: 18px;
     text-transform: uppercase;
+}
+/* Elearning Institute */
+.l-middle-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+}
+.l-top-section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+.lear-left-side {
+    padding-left: 50px;
+    padding-right: 10px;
+}
+.lear-right-side img {
+    margin-left: -10px;
+}
+.lear-ins-section {
+    margin-top: 130px;
 }
