@@ -20,6 +20,9 @@ img{
     line-height: 60px;
     color: #1D1D1D;
 }
+.custom-mt{
+    margin-top: 130px;
+}
 /* Header Style */
 li.nav-item a {
     font-weight: 400;
@@ -140,6 +143,71 @@ Banner Section style by Rubel Hossain
 .lear-right-side img {
     margin-left: -10px;
 }
-.lear-ins-section {
-    margin-top: 130px;
+/* Ready to join Section Style */
+.ready-join {
+    background: #289BDE;
+    padding-top: 80px;
+    padding-bottom: 45px;
+    padding-left: 100px;
+    padding-right:100px
+
+}
+.join-deatils h4 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.join-deatils p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+.join-btn {
+    float: right;
+}
+/* Successfull Students Section */
+.sf-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+.std-details {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+}
+.std-details h5 {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+    padding-bottom: 0;
+}
+.std-details p {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+}
+/* Student Feedback Section */
+.f-student {
+    display: flex;
+    justify-content: space-around;
+}
+.fs-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fs-admin {
+    display: flex;
+}
+.std-feed {
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 20px;
 }
