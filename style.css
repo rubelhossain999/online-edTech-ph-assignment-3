@@ -9,3 +9,27 @@
 .logo img {
     width: 100%;
 }
+li.nav-item a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222;
+}
+li.nav-item a:hover {
+    color: #e66bbb;
+    transition: .3s;
+}
+.nav-link.active {
+    color: #e169b7 !important;
+}
+.btn.btn-outline-primary.custom-btn {
+    padding: 10px 35px;
+    color: #e66bbb;
+    border: 1px solid #e66bbb;
+}
+.btn.btn-outline-primary.custom-btn:hover {
+    background:#e66bbb;
+    color: #fff;
+    transition: .4s;
+}
