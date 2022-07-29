@@ -50,6 +50,10 @@
     .ready-join {
         text-align: center;
     }
+    /* Conpany logo Style */
+.company-logo {
+    display: none;
+}
 
 
 }
@@ -109,6 +113,10 @@
     .ready-join {
         text-align: center;
     }
+    /* Conpany logo Style */
+.company-logo {
+    display: none;
+}
 
 }
 
@@ -184,5 +192,9 @@ float: none;
 }
 .ready-join {
     text-align: center;
+}
+/* Conpany logo Style */
+.company-logo {
+    display: none;
 }
 }
