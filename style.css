@@ -211,3 +211,50 @@ Banner Section style by Rubel Hossain
     border-radius: 5px;
     padding: 20px;
 }
+/* Footer Section */
+.footer-area {
+    background: #161616;
+    margin-top: 130px;
+}
+.footer-area img {
+    width: 20%;
+}
+.custom-footer {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.custom-footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #E8E8E8;
+}
+.footer-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+}
+.custom-footer p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #E8E8E8;
+    padding-top: 10px;
+}
+.footer-social i {
+    font-size: 15px;
+    color: #fff;
+    padding: 14px;
+    background: #242424;
+    border-radius: 50%;
+}
+.footer-social {
+    padding-top: 10px;
+}
+.footer-social i:hover {
+    color: #e66bbb;
+    background: #585858;
+    transition: .3s;
+}

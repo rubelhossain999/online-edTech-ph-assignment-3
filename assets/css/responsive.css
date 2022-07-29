@@ -51,9 +51,13 @@
         text-align: center;
     }
     /* Conpany logo Style */
-.company-logo {
-    display: none;
-}
+    .company-logo {
+        display: none;
+    }
+    /* Footer Section */
+    .footer-area img {
+        width: 50%;
+    }
 
 
 }
@@ -114,9 +118,13 @@
         text-align: center;
     }
     /* Conpany logo Style */
-.company-logo {
-    display: none;
-}
+    .company-logo {
+        display: none;
+    }
+    /* Footer Section */
+    .footer-area img {
+        width: 50%;
+    }
 
 }
 
@@ -196,5 +204,9 @@ float: none;
 /* Conpany logo Style */
 .company-logo {
     display: none;
+}
+/* Footer Section */
+.footer-area img {
+    width: 50%;
 }
 }
